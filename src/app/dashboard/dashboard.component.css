@@ -9,3 +9,31 @@ h1{
     text-shadow: 4px 5px 5px #242424;
     
 }
+
+@import url(./../../styles.css);
+
+h4{
+    color:rgb(201, 181, 181);
+}
+
+hr{
+    color: rgb(201, 181, 181);
+}
+
+th{
+    background-color:rgb(139, 136, 211);
+    color: rgb(201, 181, 181);
+}
+
+td{
+    background-color: rgb(139, 136, 211);
+    color: rgb(201, 181, 181);
+}
+
+.modificar{
+    color: rgb(201, 181, 181);
+}
+
+.borrar{
+    color:rgb(201, 181, 181);
+}

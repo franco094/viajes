@@ -1,0 +1,53 @@
+<div class="col-9" id="contenido">
+    <div class="container-fluid">
+    
+        <div class="row" id="formulario" *ngIf="reservaRegistroOriginal">
+            <form novalidate [formGroup]="formEditarReserva" (ngSubmit)="onGuardarModificacion()">
+                <h4> Modificar reserva </h4>
+                <hr>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Nombre</span>
+                    <input required type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" formControlName="nombre">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Apellido</span>
+                    <input required type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" formControlName="apellido">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">DNI</span>
+                    <input required type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" formControlName="dni">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Destino</span>
+                    <input required type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" formControlName="destino">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Fecha</span>
+                    <input required type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" formControlName="fechas">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Pasajeros</span>
+                    <input required type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" formControlName="pasajeros">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Correo</span>
+                    <input required type="mail" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" formControlName="correo">
+                </div>
+        
+                <hr>
+
+                <div class="row">
+                    <div class="col-4">
+                        <input type="button" class="btn btn-primary" id="btnGuardar" value="Guardar modificación de reserva"> 
+                    </div>
+                    <div class="col-2">
+                        <a class="btn btn-primary" routerLink="/listarReservas" id="btnCancelar" role="button">Cancelar</a>
+                    </div>
+                </div>
+            
+            </form>
+        </div>
+
+    </div>
+</div>

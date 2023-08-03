@@ -11,7 +11,9 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
 import { SitiowebComponent } from './sitioweb/sitioweb.component';
 import { ViajesComponent } from './sitioweb/ipervinculos/viajes/viajes.component';
 import { FechasComponent } from './sitioweb/ipervinculos/fechas/fechas.component';
-import { QuienesComponent } from './sitioweb/ipervinculos/quienes/quienes.component'
+import { QuienesComponent } from './sitioweb/ipervinculos/quienes/quienes.component';
+import { ReservasModificarComponent } from './dashboard/reservas-modificar/reservas-modificar.component';
+import { ReservasInsertarComponent } from './dashboard/reservas-insertar/reservas-insertar.component'
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { QuienesComponent } from './sitioweb/ipervinculos/quienes/quienes.compon
     SitiowebComponent,
     ViajesComponent,
     FechasComponent,
-    QuienesComponent
+    QuienesComponent,
+    ReservasModificarComponent,
+    ReservasInsertarComponent
   ],
   imports: [
     BrowserModule,

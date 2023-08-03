@@ -6,6 +6,7 @@ import { SitiowebComponent } from './sitioweb/sitioweb.component';
 import { ViajesComponent } from './sitioweb/ipervinculos/viajes/viajes.component';
 import { FechasComponent } from './sitioweb/ipervinculos/fechas/fechas.component';
 import { QuienesComponent } from './sitioweb/ipervinculos/quienes/quienes.component';
+import { ReservasModificarComponent } from './dashboard/reservas-modificar/reservas-modificar.component';
 
 const routes: Routes = [
   {path:"" ,redirectTo:"sitioweb",pathMatch:"full"},
@@ -15,10 +16,7 @@ const routes: Routes = [
   {path:'viajes',component:ViajesComponent},
   {path:'fechas',component:FechasComponent},
   {path:'quienes',component:QuienesComponent},
- 
-
-
-
+  {path:'reservasModificar',component:ReservasModificarComponent},
 ];
 
 @NgModule({

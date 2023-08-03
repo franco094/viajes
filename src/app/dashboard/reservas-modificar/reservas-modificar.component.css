@@ -1,0 +1,35 @@
+@import url(./../../../styles.css);
+
+h4{
+    color: rgb(139, 136, 211);
+}
+
+hr{
+    color: rgb(139, 136, 211);
+}
+
+#campo{
+    width: 80%;
+}
+
+span{
+    width: 15%;
+    background-color: rgb(139, 136, 211);
+    color: rgb(201, 181, 181);
+}
+
+#input{
+    width: 85%;
+    background-color: rgb(139, 136, 211);
+    color: rgb(201, 181, 181);
+}
+
+#btnGuardar{
+    background-color: rgb(139, 136, 211);
+    color:rgb(201, 181, 181);
+}
+
+#btnCancelar{
+    background-color: rgb(139, 136, 211);
+    color: rgb(201, 181, 181);
+}
