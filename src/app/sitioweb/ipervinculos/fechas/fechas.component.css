@@ -1,0 +1,23 @@
+nav{
+    background-color: rgb(178, 213, 232);
+    line-height: 50px;   
+}
+
+h1{
+    background-color:rgb(139, 136, 211);
+    margin: 0px;
+    line-height: 50px;
+    text-shadow: 4px 5px 5px #242424;
+}
+.accordion-body{
+   background-color: azure;    
+}
+body{
+    background-color:rgb(150, 150, 167);
+}
+br{
+    background-color: #545156 ;
+}
+#rojo{
+    background-color: rgb(211, 89, 89);
+}

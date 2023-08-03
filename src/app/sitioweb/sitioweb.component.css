@@ -1,0 +1,53 @@
+nav{
+
+    background-color: rgb(178, 213, 232);
+        line-height: 50px;
+  
+    
+    
+
+
+    
+}
+h1{
+    background-color:rgb(139, 136, 211);
+    margin: 0px;
+    line-height: 50px;
+    text-shadow: 4px 5px 5px #242424;
+}
+
+h2{
+    text-shadow: 8px 5px 5px #701b977b;
+    color: #671078;
+
+}
+.col-md-6{
+    background-color: rgb(166, 202, 203);
+
+
+}
+a{
+    color:rgb(28, 28, 35);
+}
+.col-md-4{
+    border: 1px solid #000000;
+}
+
+
+    
+    footer{
+        background-color: grey;
+        text-align: center;
+        }
+
+.carousel-inner{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0%;
+    
+}
+.carousel{
+background-color:rgb(18, 91, 116);
+}

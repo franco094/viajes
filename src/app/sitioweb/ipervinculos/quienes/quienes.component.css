@@ -1,0 +1,14 @@
+nav{
+    background-color: rgb(178, 213, 232);
+    line-height: 50px;   
+}
+
+h1{
+    background-color:rgb(139, 136, 211);
+    margin: 0px;
+    line-height: 50px;
+    text-shadow: 4px 5px 5px #242424;
+}
+img{
+    align-content: center;
+}
